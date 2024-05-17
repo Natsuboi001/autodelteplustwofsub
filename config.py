@@ -19,13 +19,13 @@ APP_ID = int(os.environ.get("APP_ID", ""))
 API_HASH = os.environ.get("API_HASH", "")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001995978690"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002125704889"))
 
 # NAMA OWNER
 OWNER = os.environ.get("OWNER", "")
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "1853178421"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "1269717144"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
@@ -44,13 +44,13 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "100"))
 START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI am a file store bot")
 try:
     ADMINS=[1853178421]
-    for x in (os.environ.get("ADMINS", "1853178421 5071463525").split()):
+    for x in (os.environ.get("ADMINS", "1833064017 5694206162").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 
 #Force sub message 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {first}\n\n<b>To get the files you need to join in my backup channels and then click the reload button</b>")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {first}\n\n<b>To get the files you need to join in my  channels and then click the reload button</b>")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "")
